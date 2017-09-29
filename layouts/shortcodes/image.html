@@ -1,0 +1,6 @@
+{{ $src := .Get "src" }}
+{{ $alt  := .Get "alt" }}
+{{ $pos  := .Get "pos" }}
+<span class='image-{{ $pos }}'>
+<img alt='{{ $alt }}' src='{{ $src }}'>
+</span>

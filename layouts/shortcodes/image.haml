@@ -1,0 +1,5 @@
+{{ $src := .Get "src" }}
+{{ $alt  := .Get "alt" }}
+{{ $pos  := .Get "pos" }}
+%span(class="image-{{ $pos }}")
+  %img(src="{{ $src }}" alt="{{ $alt }}")

@@ -1,0 +1,86 @@
+<section class='main post-detail'>
+<div style='width:500px; text-align:center; background: #f9f7cc; padding:25px; margin-bottom:20px; border-radius: 5px; border: 1px solid #ccc'>
+<h3>Our Back-to-Dojo event begins October 21st at 1pm! We also have a NEW LOCATION:<br></h3>
+5501 W 25th Ave, Denver, CO 80214
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBj5kmpf-dckJV2a0_4rneny6h4iS9umG4'></script>
+<div style='overflow:hidden;height:222px;width:100%;'>
+<div id='gmap_canvas' style='height:222px;width:100%;'></div>
+<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+<a href='https://www.embed-map.net/'>google maps html widget</a>
+<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=94fe6c589e7a24d72f5f1ed41b641af411d5e709'></script>
+<script type='text/javascript'>function init_map(){
+var myOptions = {zoom:14,center:new google.maps.LatLng(39.7531126,-105.05709530000001),mapTypeId: google.maps.MapTypeId.ROADMAP};
+map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.7531126,-105.05709530000001)});
+infowindow = new google.maps.InfoWindow({content:'<strong>CoderDojo Denver</strong><br>5501 W 25th Ave<br> Denver<br>'});
+google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+<a href='https://zen.coderdojo.com/dojos/us/denver-co/denver-co-regis-university-50-th-federal'>
+More information here!
+</a>
+</div>
+<h1>What is CoderDojo</h1>
+<p>
+CoderDojo is a community driven global network of FREE and inclusive technology clubs and classes for kids. CoderDojo
+began in Ireland in 2012 with a vision that knowledge and curriculum will be shared and makes development and learning
+to code a fun, sociable and awesome experience.
+</p>
+<p>
+Within the CoderDojo Movement there is a focus on community, peer learning, youth mentoring and self-led learning,
+with an emphasis on showing how coding is a force for change in the world. Kids are encouraged to find their own
+project ideas to solve a problem in the world around them, and then explore how coding can help to overcome those
+problems.
+</p>
+<p>
+Our goal is to promote technology as a fun and educational activity that can solve problems and provide a path to a
+good career. Our classes help kids with problem solving, teamwork, collaboration, engineering skills, and self
+confidence.
+</p>
+<hr>
+<section class='links-list'>
+<div class='home-box'>
+<a href='/kids/'>
+<img alt='Kids at CoderDojo' src='/img/gallery/DSC_0053.jpg'>
+<h3 class='link-title'>Kids</h3>
+</a>
+<p class='link-description'>
+This is hands-on learning. No grades, no expectations. You get to
+create your own projects, work on cool stuff, build, create, make.
+</p>
+</div>
+<div class='home-box'>
+<a class='link-item' href='/mentors-volunteers/'>
+<img alt='Volunteering at CoderDojo' src='/img/gallery/DSC_0085.jpg'>
+<h3 class='link-title'>Mentoring</h3>
+</a>
+<p class='link-description'>
+We're always looking for mentors and volunteers to help teach the
+kids. Do you work as a programmer, developer, engineer, roboticist,
+or all-around mad scientist?
+</p>
+</div>
+<div class='home-box'>
+<a class='link-item' href='/donate/'>
+<img alt='Donating to CoderDojo' src='/img/gallery/DSC_0025.jpg'>
+<h3 class='link-title'>Donating</h3>
+</a>
+<p class='link-description'>
+Your gift connects kids to their creativity at CoderDojo! We are
+currently seeking in-kind donations. Please donate today!
+</p>
+</div>
+<div class='home-box'>
+<a class='link-item' href='/parents/'>
+<img alt='Volunteering at CoderDojo' src='/img/gallery/IMG_1475.jpg'>
+<h3 class='link-title'>Parents</h3>
+</a>
+<p class='link-description'>
+Our classes help kids with problem solving, teamwork,
+collaboration and engineering skills as well as with self confidence.
+</p>
+</div>
+</section>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/HYb7NYvJ370' width='560'></iframe>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/Uer9rxZjzrk' width='560'></iframe>
+</section>

@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $text  := .Get "text" }}
+{{ $cdj  := .Get "cdj" }}
+<div style='vertical-align:top; height:275px; border:1px solid #eee; width:175px; margin-bottom: 5px; padding: 15px 15px 0px 15px; display:inline-block;'>
+<img alt='{{ $text }}' height='150' src='{{ $src }}' width='150'>
+<p style='text-align:center'>
+{{ $text | safeHTML }}
+</p>
+</div>

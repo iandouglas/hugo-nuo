@@ -45,7 +45,6 @@
     border-bottom: none;
 
     &::before {
-      content: "sep line";
       position: absolute;
       top: -12px;
       left: calc(50% - 40px);
